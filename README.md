@@ -1,4 +1,5 @@
 # mesh_process
+
 ## An R tool for batch-processing of meshes and landmark files for shape analyses
 
 #### Here we provide several functions that batch import, process (by 
@@ -20,7 +21,7 @@ If you have any questions you can contact Marta Vidal-García at **marta.vidalga
 
 ***
 
-Citation:
+References:
 
 Daniel Adler, Duncan Murdoch and others (2020). rgl: 3D Visualization Using OpenGL. 
 R package version 0.100.54.https://CRAN.R-project.org/package=rgl
