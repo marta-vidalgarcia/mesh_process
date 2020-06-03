@@ -1,4 +1,4 @@
-Package: mesh_process
+Package: mesh_batch_process
 Type: Package
 Title: An R tool for batch-processing of meshes and landmark files for shape analyses
 Version: 0.1
@@ -11,7 +11,7 @@ Imports: rgl,
   freesurferformats
 License: GPL (>=2)
 LazyData: true
-URL: https://github.com/marta-vidalgarcia/mesh_process
-BugReports: https://github.com/marta-vidalgarcia/mesh_process/issues
+URL: https://github.com/marta-vidalgarcia/mesh_batch_process
+BugReports: https://github.com/marta-vidalgarcia/mesh_batch_process/issues
 Encoding: UTF-8
 RoxygenNote: 7.1.0
