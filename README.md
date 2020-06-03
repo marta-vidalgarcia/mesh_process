@@ -10,7 +10,6 @@
 
 `library(mesh_process)`
 
-R
 ***
 
 If you have any questions you can contact Marta Vidal-García at **marta.vidalga@gmail.com**
