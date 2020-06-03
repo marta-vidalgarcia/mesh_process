@@ -1,4 +1,4 @@
-# mesh_process
+# mesh_batch_process
 
 ## An R tool for batch-processing of meshes and landmark files for shape analyses
 
