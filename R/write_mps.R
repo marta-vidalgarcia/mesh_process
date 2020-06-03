@@ -36,12 +36,10 @@
 write_mps <- function(arrayLMs = arrayLMs, dir = NULL, ID = NULL){
   if (is.null(dir) == TRUE) {
     path <- getwd()
+  } else {
+    path <- getwd()
+    setwd(dir)
   }
-  else {
-    old_path <- getwd()
-    path <- dir
-  }
-  setwd(path)
   if (is.null(ID) == TRUE) {
     dimnames_mps <- dimnames(arrayLMs)[[3]]
   } else {
@@ -80,5 +78,5 @@ write_mps <- function(arrayLMs = arrayLMs, dir = NULL, ID = NULL){
     close(file_mps)
     rm(landmarks, file_mps)
   }
-  setwd(old_path)
+  setwd(path)
 }

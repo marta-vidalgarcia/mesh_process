@@ -2,11 +2,7 @@
 
 ## An R tool for batch-processing of meshes and landmark files for shape analyses
 
-#### Here we provide several functions that batch import, process (by 
-reducing the number of faces, closing holes, removing isolated pieces, etc. as per 
-the R package Rvcg), and save multiple meshes in different formats (e.g. PLY, STL, 
-VTK). It also allows batch-importing and saving landmark files in differnt formats 
-(.aim, .tag, .mps, etc.).
+#### Here we provide several functions that batch import, process (by  reducing the number of faces, closing holes, removing isolated pieces, etc. as per the R package Rvcg), and save multiple meshes in different formats (e.g. PLY, STL, VTK). It also allows batch-importing and saving landmark files in differnt formats (.aim, .tag, .mps, etc.).
 
 `library(devtools)`
 
@@ -14,7 +10,7 @@ VTK). It also allows batch-importing and saving landmark files in differnt forma
 
 `library(mesh_process)`
 
-
+R
 ***
 
 If you have any questions you can contact Marta Vidal-García at **marta.vidalga@gmail.com**

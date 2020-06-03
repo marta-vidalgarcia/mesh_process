@@ -2,16 +2,16 @@ Package: mesh_process
 Type: Package
 Title: An R tool for batch-processing of meshes and landmark files for shape analyses
 Version: 0.1
-Authors@R: c(person("Marta", "Vidal-Garcia", email = "marta.vidalga@gmail.com", 
-role = c("aut", "cre")), person("Hallgrimsson", "Benedikt", role = c("aut")))
+Authors@R: c(person("Marta", "Vidal-Garcia", email = "marta.vidalga@gmail.com", role = c("aut", "cre")), person("Hallgrimsson", "Benedikt", role = c("aut")))
 Maintainer: Marta Vidal-Garcia <marta.vidalga@gmail.com>
-Description: Here we provide several functions that batch import, process (by 
-reducing the number of faces, closing holes, removing isolated pieces, etc. as per 
-the R package Rvcg), and save multiple meshes in different formats (e.g. PLY, STL, 
-VTK). It also allows batch-importing and saving landmark files in differnt formats 
-(*.aim, *.tag, *.mps, etc.).
+Description: Here we provide several functions that batch import, process (by reducing the number of faces, closing holes, removing isolated pieces, etc. as per the R package Rvcg), and save multiple meshes in different formats (e.g. PLY, STL, VTK). It also allows batch-importing and saving landmark files in differnt formats (*.aim, *.tag, *.mps, etc.).
 Depends: R (>= 3.1.0)
+Imports: rgl,
+  Rvcg,
+  freesurferformats
 License: GPL (>=2)
 LazyData: true
 URL: https://github.com/marta-vidalgarcia/mesh_process
 BugReports: https://github.com/marta-vidalgarcia/mesh_process/issues
+Encoding: UTF-8
+RoxygenNote: 7.1.0
