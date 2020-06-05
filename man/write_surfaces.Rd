@@ -13,7 +13,7 @@ write_surfaces(surfaces = surfaces, pattern = c("PLY", "STL", "VTK", "OBJ"), bin
 
 \item{binary}{optional logical parameter indicating whether to write binary files (only for _"PLY"_ or _"STL"_). For more information check *?vcgStlWrite* and *?vcgPlyWrite* in Rvcg.}
 
-\item{print.progress}{optional vector with IDs for saving the *.mps files}
+\item{print.progress}{optional parameter indicating whether to print the progress}
 }
 \description{
 Writes multiple meshes as PLY, STL, OBJ or VTK files

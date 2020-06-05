@@ -11,7 +11,7 @@
 #' @param surfaces an object of the class "mesh_array" that contains two lists: a table with the meshes information (name, number of faces and vertices) and all the meshes that had previously been imported using the function import_surfaces.
 #' @param pattern Parameter indicating which format the meshes should be saved as. Options are _"PLY"_, _"STL"_, _"VTK"_ or _"OBJ"_.
 #' @param binary optional logical parameter indicating whether to write binary files (only for _"PLY"_ or _"STL"_). For more information check *?vcgStlWrite* and *?vcgPlyWrite* in Rvcg.
-#' @param print.progress optional vector with IDs for saving the *.mps files
+#' @param print.progress optional parameter indicating whether to print the progress
 #'
 #' @details
 #'   Takes an object of the class "mesh_array", which has been processed with the read_surfaces function, and saves the meshes as PLY, STL, or VTK meshes. The name of the meshes is (mesh_ID)_post.(mesht_type), for example, *mesh1_post.vtk*.
