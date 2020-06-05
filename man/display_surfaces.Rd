@@ -17,8 +17,7 @@ display_surfaces(surfaces = surfaces, col = NULL, alpha = 1)
 Plots multiple mesh surfaces.
 }
 \details{
-Takes an object of the class "mesh_array" and plots all the meshes together
-  in the same rgl window.
+Takes an object of the class "mesh_array" and plots all the meshes together in the same rgl window.
 }
 \examples{
 

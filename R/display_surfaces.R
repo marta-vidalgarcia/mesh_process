@@ -14,8 +14,7 @@
 #' @param alpha an optional variable (from 0 to 1) indicating the level of 'transparency' to plot the meshes with. Default is no transparency (1).
 #'
 #' @details
-#'   Takes an object of the class "mesh_array" and plots all the meshes together
-#'   in the same rgl window.
+#'   Takes an object of the class "mesh_array" and plots all the meshes together in the same rgl window.
 #'
 #' @author Marta Vidal-Garcia
 #'
