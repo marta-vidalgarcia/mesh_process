@@ -2,6 +2,8 @@
 
 export(display_surfaces)
 export(mesh_volumes)
+export(obj2vtk)
+export(ply2vtk)
 export(read_mps)
 export(read_surfaces)
 export(stl2vtk)
