@@ -6,7 +6,7 @@
 
 `library(devtools)`
 
-`devtools::install_github("marta-vidalgarcia/mesh_batch_process")`
+`devtools::install_github("marta-vidalgarcia/mesh_process")`
 
 `library(mesh_process)`
 
